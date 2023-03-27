@@ -111,7 +111,7 @@
 
 
 ## Licença
-
+![GitHub](https://img.shields.io/github/license/wiltonmartinsdev/Movie-Notes)
 
 ## Status do Projeto
 - Conforme com o que foi proposto para desenvolver o projeto ele encontra-se finalizado, mas podendo ser implementada novas funcionalidades.
