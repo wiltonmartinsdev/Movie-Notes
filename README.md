@@ -107,7 +107,7 @@
 
 ## Stack utilizada
 
-**Back-end:** Node.js, Express.js, Knex.js, SQLite
+**Back-end:** `Node.js`, `Express.js`, `Knex.js`, `SQLite`
 
 
 ## Licença
