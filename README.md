@@ -56,9 +56,9 @@
 
     }
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/create_user.gif?raw=true"/>
 
-- **Atualizar Usuário:** Passando os seguintes parâmetros no corpo da requisição.
+- **Atualizar Usuário:** Devemos passar o id do usuário a ser atualizado e no corpo da requisição os seguintes parâmetros.
 
     Rota: `PUT /user/:id`
 
@@ -68,15 +68,15 @@
 
         "email":"updateemail@email.com",
 
-        "password":"123",
+        "password":"456",
 
         "oldPassword":"123"
 
     }
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/updating_user.gif?raw=true"/>
 
-- **Criar Nota:** Podemos criar uma Nota com as informações do filme, com os seguintes parâmetros no corpo da requisição.
+- **Criar Nota:** A nota criada será vinculada a um usuário já cadastrado, então, devemos passar o id do usuário (user_id) e no corpo da requisição os seguintes parâmetros.
 
     Rota: `POST /notes/:user_id`
 
@@ -92,31 +92,31 @@
 
     }
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/create_note.gif?raw=true"/>
 
-- **Mostrar uma Nota:** Podemos mostrar uma nota específica.
+- **Mostrar uma Nota:** Podemos mostrar uma nota específica, vinculada ao usuário, passando o id da nota.
     
     Rota: `GET /notes/:id`
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/showing_a_note.gif?raw=true"/>
 
-- **Mostrar todas as Notas:** Podemos mostrar todas as notas.
+- **Mostrar todas as Notas:** Podemos mostrar todas as notas vinculadas ao usuário.
     
     Rota: `GET /notes`
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/showing_all_notes.gif?raw=true"/>
 
-- **Deletar todas as Notas:** Podemos deletar a nota cadastrada.
+- **Deletar Notas:** Podemos deletar as notas vinculadas ao usuário passando o id da nota.
     
     Rota: `GET /notes:id`
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/deleting_note.gif?raw=true"/>
 
-- **Mostrar todas as Tags:** Podemos mostrar todas as tags na seguinte rota.
+- **Mostrar todas as Tags:** Podemos mostrar todas as tags passando o id do usuário (user_id).
     
     Rota: `GET /tags/:user_id`
     
-    <img src=""/>
+    <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/showing_all_note_tags.gif?raw=true"/>
 
 
 ## Stack utilizada
