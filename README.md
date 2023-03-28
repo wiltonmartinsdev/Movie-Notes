@@ -55,6 +55,8 @@
         "password":"123"
 
     }
+    
+    <img src=""/>
 
 - **Atualizar Usuário:** Passando os seguintes parâmetros no corpo da requisição.
 
@@ -71,6 +73,8 @@
         "oldPassword":"123"
 
     }
+    
+    <img src=""/>
 
 - **Criar Nota:** Podemos criar uma Nota com as informações do filme, com os seguintes parâmetros no corpo da requisição.
 
@@ -87,22 +91,32 @@
         "tags":"Tags relacionadas ao Filme"
 
     }
+    
+    <img src=""/>
 
 - **Mostrar uma Nota:** Podemos mostrar uma nota específica.
     
     Rota: `GET /notes/:id`
+    
+    <img src=""/>
 
 - **Mostrar todas as Notas:** Podemos mostrar todas as notas.
     
     Rota: `GET /notes`
+    
+    <img src=""/>
 
 - **Deletar todas as Notas:** Podemos deletar a nota cadastrada.
     
-    Rota: `GET /notes:id`    
+    Rota: `GET /notes:id`
+    
+    <img src=""/>
 
 - **Mostrar todas as Tags:** Podemos mostrar todas as tags na seguinte rota.
     
     Rota: `GET /tags/:user_id`
+    
+    <img src=""/>
 
 
 ## Stack utilizada
