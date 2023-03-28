@@ -8,7 +8,7 @@
 
 ## Instruções de uso do Movie Notes
 
-- O Movie Notes é uma aplicação desenvolvida em Node.js.
+- O Movie Notes é uma aplicação desenvolvido em Node.js.
 - Foi utilizado o framework Express.js para auxiliar/facilitar na criação das rotas da aplicação.
 - Foi utilizado como banco de dados o SQLite.
 - Foi utilizado o Knex.js para as consultas sql.
