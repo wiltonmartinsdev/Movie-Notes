@@ -94,7 +94,7 @@
     
     <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/create_note.gif?raw=true"/>
 
-- **Mostrar uma Nota:** Podemos mostrar uma nota específica, vinculada ao usuário, passando o id da nota.
+- **Mostrar uma Nota:** Podemos mostrar uma nota específica, vinculada ao usuário, e passando o id da nota.
     
     Rota: `GET /notes/:id`
     
@@ -106,7 +106,7 @@
     
     <img src="https://github.com/wiltonmartinsdev/Movie-Notes/blob/main/src/assets/showing_all_notes.gif?raw=true"/>
 
-- **Deletar Notas:** Podemos deletar as notas vinculadas ao usuário, passando o id da nota.
+- **Deletar Notas:** Podemos deletar as notas, vinculadas ao usuário, passando o id da nota.
     
     Rota: `GET /notes:id`
     
