@@ -25,7 +25,7 @@
 ## Pré-requesitos
 - Node.js instalado na máquina.
 - NPM (Node Package Manager) para instalar as dependências.
-- Esse repositório é o Back-end da aplicação e para o correto funcionamento, em ambiente local, precisamos rodar em conjunto com o repositório Front-end da aplicação. Acesse o link abaixo para ter acesso ao repositório Front-end da aplicação: https://github.com/wiltonmartinsdev/RocketNotes-Back-end
+- Esse repositório é o Front-end da aplicação e para o correto funcionamento, em ambiente local, precisamos rodar em conjunto com o repositório Back-end da aplicação. Acesse o link abaixo para ter acesso ao repositório Back-end da aplicação: https://github.com/wiltonmartinsdev/RocketNotes-Back-end
 ## Instalação
 
 - Clone o repositório: git clone https://github.com/seu-usuario/sistema-gerenciamento-tarefas.git
